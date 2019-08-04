@@ -1,0 +1,9 @@
+# Build
+
+```
+docker-rpm-builder dir --download-sources alanfranz/drb-epel-6-x86-64:latest . /tmp/rpms
+```
+
+# See also
+
+https://github.com/docker-rpm-builder/docker-rpm-builder#installation
