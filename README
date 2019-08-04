@@ -1,9 +1,25 @@
-# Build
+# Strongswan build RPM
+
+This is a mashup of Strongswan 5.7.x for CentOS6.
+
+The SPEC file is taken from the EPEL distribution SRC RPM
+
+https://rpmfind.net/linux/RPM/epel/6/x86_64/Packages/s/strongswan-5.4.0-2.el6.x86_64.html
+
+https://rpmfind.net/linux/RPM/epel/7/x86_64/Packages/s/strongswan-5.7.2-1.el7.x86_64.html
+
+## Untested
+
+You have been warned.
+
+## Build
 
 ```
 docker-rpm-builder dir --download-sources alanfranz/drb-epel-6-x86-64:latest . /tmp/rpms
 ```
 
-# See also
+## See also
 
 https://github.com/docker-rpm-builder/docker-rpm-builder#installation
+
+
